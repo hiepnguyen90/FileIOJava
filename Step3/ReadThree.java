@@ -12,9 +12,10 @@ public class ReadThree
         try{
             System.out.print("Writing to file ... ");
             // Create the file to write to
-            PrintWriter fileOut = new PrintWriter("output.txt");
+            PrintWriter fileOut = new PrintWriter("hello.txt");
             // Write text just like we would to the console
-            fileOut.println("Hello ");
+            fileOut.println("Hello i like pizza 22222");
+            fileOut.println("ZipCode");
             // Clode out file
             fileOut.close();  
 
